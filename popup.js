@@ -243,7 +243,7 @@ class Row extends Component {
                 var elapsed = Math.round(this.state.elapsed / 100);
                 var seconds = (elapsed / 10).toFixed(0);
 
-                return ( < p > This example was started < b > {
+                return ( < p > Your pair started < b > {
                         seconds
                     }
                     seconds < /b> ago.</p >
